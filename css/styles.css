@@ -1,0 +1,130 @@
+.body {
+    font-family: Impact, Haettenschweiler;
+}
+
+#title {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    padding-bottom: 50px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.d-flex {
+    padding: 0 10px;
+}
+
+.title-image {
+width: 20%;
+transform: rotate(25deg);
+position: absolute;
+}
+
+.image {
+    width: 60%;
+}
+
+#features {
+    padding: 8% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: blueviolet;
+}
+
+#testimonials {
+    padding: 7% 10%;
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 40%;
+    border-radius: 100%;
+    margin: 10%;
+}
+
+#press {
+    background-color: blueviolet;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 10px 20px 40px;
+}
+
+.icon {
+    padding-bottom: 10px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+@media [max-width: 1028px;] {
+    .title-image {
+        position: static; 
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: blueviolet;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#copyright {
+    background-color: blueviolet;
+    text-align: center;
+    padding-bottom: 30px;
+}
+    
+.find {
+    color: #fff;
+    padding-bottom: 15px;
+}
+
